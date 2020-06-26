@@ -1,0 +1,5 @@
+import re
+st1=str(input('enter text: '))
+pat='[\S][A-Za-z0-9]+@[A-Za-z0-9]+\.[\S]+'
+m=re.findall(pat,st1)
+print (m)
